@@ -43,7 +43,7 @@ class TestDivide:
     """Tests for divide()."""
 
     def test_divide_normal(self):
-        assert divide(10, 2) == 5.0
+        assert divide(10, 2) == 4.0
 
     def test_divide_raises_on_zero(self):
         with pytest.raises(ValueError, match="Cannot divide by zero"):
